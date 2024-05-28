@@ -157,6 +157,7 @@ aside .sidebar {
   position: relative;
   top: 1.5rem;
   transition: all 0.3s ease;
+  overflow: hidden;
 }
 
 aside .sidebar:hover {
