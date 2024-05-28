@@ -1,50 +1,59 @@
 const Orders = [
-    {
-        productName: 'JavaScript Tutorial',
-        productNumber: '85743',
-        paymentStatus: 'Due',
-        status: 'Pending'
-    },
-    {
-        productName: 'CSS Full Course',
-        productNumber: '97245',
-        paymentStatus: 'Refunded',
-        status: 'Declined'
-    },
-    {
-        productName: 'Flex-Box Tutorial',
-        productNumber: '36452',
-        paymentStatus: 'Paid',
-        status: 'Active'
-    },
-    {
-        productName: 'jQuery Tutorial',
-        productNumber: '36452',
-        paymentStatus: 'Paid',
-        status: 'Active'
-    },
-    {
-        productName: 'Advanced JavaScript Tutorial',
-        productNumber: '36452',
-        paymentStatus: 'Paid',
-        status: 'Active'
-    },
-    {
-        productName: 'Visual Studio Code Tutorial',
-        productNumber: '36452',
-        paymentStatus: 'Paid',
-        status: 'Active'
-    },
-    {
-        productName: 'Atom Tutorial',
-        productNumber: '36452',
-        paymentStatus: 'Paid',
-        status: 'Active'
-    },
-    {
-        productName: 'SVG Tutorial',
-        productNumber: '36452',
-        paymentStatus: 'Due',
-        status: 'Pending'
-    },
-]
+  {
+    productName: "Name of product",
+    productNumber: "85743",
+    paymentStatus: "85743",
+    status: "Pending",
+    profit: 0.8
+    
+  },
+  {
+    productName: "Name",
+    productNumber: "97245",
+    paymentStatus: "85743",
+    status: "Declined",
+    profit: 0.4
+  },
+  {
+    productName: "Name ",
+    productNumber: "36452",
+    paymentStatus: "85743",
+    status: "Active",
+    profit: 0.5
+  },
+  {
+    productName: "Name ",
+    productNumber: "36452",
+    paymentStatus: "85743",
+    status: "Active",
+    profit: 0.6
+  },
+  {
+    productName: "Name ",
+    productNumber: "36452",
+    paymentStatus: "85743",
+    status: "Active",
+    profit: 0.3
+  },
+  {
+    productName: "Name ",
+    productNumber: "36452",
+    paymentStatus: "85743",
+    status: "Active",
+    profit: 0.7
+  },
+  {
+    productName: "Name ",
+    productNumber: "36452",
+    paymentStatus: "85743",
+    status: "Active",
+    profit: 0.55
+  },
+  {
+    productName: "Name",
+    productNumber: "36452",
+    paymentStatus: "85743",
+    status: "Pending",
+    profit: 0.7
+  },
+];

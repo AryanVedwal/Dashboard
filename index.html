@@ -7,6 +7,10 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Responsive Dashboard</title>
   </head>
@@ -26,43 +30,46 @@
         </div>
 
         <div class="sidebar">
-          <a href="#">
+          <a href="#" class="active">
             <span class="material-icons-sharp"> dashboard </span>
-            <h3>Dashboard</h3>
-          </a>
-          <a href="#">
-            <span class="material-icons-sharp"> person_outline </span>
-            <h3>Users</h3>
+            <h3>LeaderBoard</h3>
           </a>
           <a href="#">
             <span class="material-icons-sharp"> receipt_long </span>
-            <h3>History</h3>
+            <h3>Historical Trading</h3>
           </a>
-          <a href="#" class="active">
+          <a href="#">
             <span class="material-icons-sharp"> insights </span>
-            <h3>Analytics</h3>
-          </a>
-          <a href="#">
-            <span class="material-icons-sharp"> mail_outline </span>
-            <h3>Tickets</h3>
-            <span class="message-count">27</span>
-          </a>
-          <a href="#">
-            <span class="material-icons-sharp"> inventory </span>
-            <h3>Sale List</h3>
+            <h3>Historical Charts</h3>
           </a>
           <a href="#">
             <span class="material-icons-sharp"> report_gmailerrorred </span>
-            <h3>Reports</h3>
+
+            <h3>Alerts</h3>
+            <span class="message-count">27</span>
           </a>
           <a href="#">
-            <span class="material-icons-sharp"> settings </span>
-            <h3>Settings</h3>
+            <span class="material-symbols-outlined"> scan </span>
+            <h3>Scanner</h3>
           </a>
           <a href="#">
-            <span class="material-icons-sharp"> add </span>
-            <h3>New Login</h3>
+            <span class="material-symbols-outlined"> schema </span>
+            <h3>Basic Backtest</h3>
           </a>
+          <a href="#">
+            <span class="material-symbols-outlined"> family_history </span>
+            <h3>Advance Backtest</h3>
+          </a>
+          <a href="#">
+            <span class="material-symbols-outlined"> payments </span>
+
+            <h3>Pricing</h3>
+          </a>
+          <a href="#">
+            <span class="material-symbols-outlined"> currency_rupee </span>
+            <h3>Earning</h3>
+          </a>
+
           <a href="#">
             <span class="material-icons-sharp"> logout </span>
             <h3>Logout</h3>
@@ -79,7 +86,7 @@
           <div class="sales">
             <div class="status">
               <div class="info">
-                <h3>Total Sales</h3>
+                <h3>Total Profit</h3>
                 <h1>$65,024</h1>
               </div>
               <div class="progresss">
@@ -133,11 +140,11 @@
           <table>
             <thead>
               <tr>
-                <th>Course Name</th>
-                <th>Course Number</th>
-                <th>Payment</th>
-                <th>Status</th>
-                <th></th>
+                <th>Name</th>
+                <th>Id</th>
+                <th>Profit</th>
+                <th>Avg. Profit(Daily)</th>
+                <th>Action</th>
               </tr>
             </thead>
             <tbody></tbody>
